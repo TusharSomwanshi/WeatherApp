@@ -16,7 +16,7 @@ class WeatherForm extends Component {
 
     handleCitynameChange = (e) => {
         this.setState({
-            cityName: /^[A-Za-z]+$/.test(e.target.value) ? e.target.value : ''
+            cityName: /^[a-zA-Z\s]*$/.test(e.target.value) ? e.target.value : ''
         })
         this.props.setErrorMessage('');
         this.props.setWeatherData({});
