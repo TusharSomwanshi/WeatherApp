@@ -8,3 +8,5 @@ Steps to run:
 5. Project will be up on your browser.
 
 For any queries/issue, please add comments in issue section.
+
+# Note: Make sure you have node.js installed on your system.
